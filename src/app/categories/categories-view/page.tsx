@@ -1,26 +1,20 @@
 import Breadcrumb from "@/components/Breadcrumbs/Breadcrumb";
-import TableOne from "@/components/Tables/TableOne";
-import TableThree from "@/components/Tables/TableThree";
-import TableTwo from "@/components/Tables/TableTwo";
-
+import CategoriesView from "@/components/Tables/CategoriesView";
 import { Metadata } from "next";
 import DefaultLayout from "@/components/Layouts/DefaultLayout";
 
 export const metadata: Metadata = {
   title: "Categories View",
   description:
-    "This is Next.js Tables page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template",
+    "Categories View",
 };
 
 const TablesPage = () => {
   return (
     <DefaultLayout>
-      <Breadcrumb pageName="Tables" />
-
+      <Breadcrumb pageName="Categories View" />
       <div className="flex flex-col gap-10">
-        <TableOne />
-        <TableTwo />
-        <TableThree />
+        <CategoriesView />
       </div>
     </DefaultLayout>
   );

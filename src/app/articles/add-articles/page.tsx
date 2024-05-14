@@ -27,13 +27,13 @@ const TablesPage = () => {
             <div className="flex flex-col gap-5.5 p-6.5">
               <div>
                 <label className="mb-3 block text-sm font-medium text-black dark:text-white">
-                  Default Input
+                  Enter Content
                 </label>
-                <input
-                  type="text"
-                  placeholder="Default Input"
+                <textarea
+                  rows={6}
+                  placeholder="Default textarea"
                   className="w-full rounded-lg border-[1.5px] border-stroke bg-transparent px-5 py-3 text-black outline-none transition focus:border-primary active:border-primary disabled:cursor-default disabled:bg-whiter dark:border-form-strokedark dark:bg-form-input dark:text-white dark:focus:border-primary"
-                />
+                ></textarea>
               </div>
 
               <div className="mb-5">

@@ -4,7 +4,7 @@ import { Metadata } from "next";
 import DefaultLayout from "@/components/Layouts/DefaultLayout";
 
 export const metadata: Metadata = {
-  title: "Magazines List View",
+  title: "DecodeAfrica",
   description:
     "Magazines View",
 };

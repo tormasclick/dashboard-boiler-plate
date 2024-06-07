@@ -5,7 +5,7 @@ import DefaultLayout from "@/components/Layouts/DefaultLayout";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "DecodeAfrica",
+  title: "eLipa",
   description:
     "Profile",
 };

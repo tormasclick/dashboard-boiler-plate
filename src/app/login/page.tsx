@@ -7,7 +7,7 @@ import LoginLayout from "@/components/LoginLayouts/LoginLayout";
 
 export const metadata: Metadata = {
   title: "Login",
-  description: "Decode Africa Login",
+  description: "eLipa Login",
 };
 
 const SignIn: React.FC = () => {
@@ -37,8 +37,7 @@ const SignIn: React.FC = () => {
               </Link>
 
               <p className="2xl:px-20">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                suspendisse.
+               
               </p>
 
               <span className="mt-15 inline-block">
@@ -170,7 +169,7 @@ const SignIn: React.FC = () => {
             <div className="w-full p-4 sm:p-12.5 xl:p-17.5">
               {/* <span className="mb-1.5 block font-medium">Start for free</span> */}
               <h2 className="mb-9 text-2xl font-bold text-black dark:text-white sm:text-title-xl2">
-                Sign In to Decode Africa
+                Sign In to eLipa
               </h2>
 
               <form>

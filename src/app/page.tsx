@@ -4,8 +4,8 @@ import DefaultLayout from "@/components/Layouts/DefaultLayout";
 
 export const metadata: Metadata = {
   title:
-    "DecodeAfrica",
-  description: "decode africa",
+    "eLipa",
+  description: "eLipa",
 };
 
 export default function Home() {

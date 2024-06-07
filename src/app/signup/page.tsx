@@ -6,7 +6,7 @@ import { Metadata } from "next";
 import LoginLayout from "@/components/LoginLayouts/LoginLayout";
 
 export const metadata: Metadata = {
-  title: "DecodeAfrica",
+  title: "eLipa",
   description: "signup",
   // other metadata
 };
@@ -36,8 +36,6 @@ const SignUp: React.FC = () => {
                 />
               </Link>
               <p className="2xl:px-20">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                suspendisse.
               </p>
 
               <span className="mt-15 inline-block">
@@ -168,7 +166,7 @@ const SignUp: React.FC = () => {
           <div className="w-full border-stroke dark:border-strokedark xl:w-1/2 xl:border-l-2">
             <div className="w-full p-4 sm:p-12.5 xl:p-17.5">
               <h2 className="mb-9 text-2xl font-bold text-black dark:text-white sm:text-title-xl2">
-                Sign Up to Decode Africa
+                Sign Up to eLipa
               </h2>
 
               <form>

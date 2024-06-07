@@ -90,7 +90,7 @@ const TablesPage = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {filteredDemos.map(demo => (
+            {filteredDemos.map((demo: Demo) => (
               <div key={demo.id} className="p-4 border border-gray-300 rounded">
                 <h2 className="text-xl font-bold">{demo.name}</h2>
                 <p className="text-gray-600">{demo.country}</p>
@@ -105,6 +105,7 @@ const TablesPage = () => {
 };
 
 export default TablesPage;
+
 
 
 // "use client"; // Add this line to mark this file as a Client Component
